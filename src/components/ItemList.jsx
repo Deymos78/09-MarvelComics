@@ -6,8 +6,8 @@ export const ItemList = ({comicSearch}) => {
 
  
   
-  console.log('Ahora leeremos los datos ');
-  console.log(comicSearch);
+  // console.log('Ahora leeremos los datos ');
+  // console.log(comicSearch);
   const {isLoading, comicsState} = useFetch(comicSearch);
   
 

@@ -31,6 +31,7 @@ export const ComicSearch = ({onNewComic}) => {
                 placeholder="Escribe el nombre del comic"
                 onChange={ onInputChange }
             />
+            
         </form>
     </>
   )

@@ -5,8 +5,8 @@ import { helperFetch } from "../helpers/helperFetch";
 // Aqui es donde se realizara el hook para la peticion a la API
 export const useFetch = (comicSearch) => {
 
-  console.log('Estamos en la parte del fetch')
-  console.log(comicSearch);
+  // console.log('Estamos en la parte del fetch')
+  // console.log(comicSearch);
   const [comicsState, setComicsState] = useState({});
   const [isLoading, setIsLoading] = useState(true);
 
